@@ -14,4 +14,4 @@ WORKDIR /xmr-stak-cpu/bin
 COPY entrypoint.sh /xmr-stak-cpu/bin/entrypoint.sh
 ENTRYPOINT ["/xmr-stak-cpu/bin/entrypoint.sh"]  
 
-CMD ["/xmr-stak-cpu/bin/xmr-stak-cpu"]
+CMD ["/xmr-stak-cpu/bin/xmr-stak-cpu", "config.txt"]
