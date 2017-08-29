@@ -8,6 +8,10 @@ RUN cd xmr-stak-cpu && \
     cmake . && \
     make install
 
+COPY config.txt /xmr-stak-cpu/bin/config.txt
 WORKDIR /xmr-stak-cpu/bin
+
+COPY entrypoint.sh /xmr-stak-cpu/bin/entrypoint.sh
+ENTRYPOINT ["/xmr-stak-cpu/bin/entrypoint.sh"]  
 
 CMD ["/xmr-stak-cpu/bin/xmr-stak-cpu"]
