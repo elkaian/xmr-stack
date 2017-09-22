@@ -96,8 +96,8 @@
  * wallet_address - Your wallet, or pool login.
  * pool_password  - Can be empty in most cases or "x".
  */
-"pool_address" : "${POOL}:${PORT}",
-"wallet_address" : "${ADDRESS}",
+"pool_address" : "pool.sumokoin.com:3333",
+"wallet_address" : "Sumoo4jByxzKN8WtHzRC3R8K18QSMLLPR6usH1L2DGevWf3JK71gtZd3ZxX5D42jk1hAXYJup4GbdNQG3gdXhURiJ8hNEH9De1D",
 "pool_password" : "",
 
 /*
